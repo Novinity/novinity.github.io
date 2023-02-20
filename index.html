@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novinity</title>
+
+    <link rel="icon" type="image/x-icon" href="media/images/favicon.ico">
+
+    <meta content="Novinity" property="og:title" />
+    <meta content="The official site for the Novinity :>" property="og:description" />
+    <meta content="http://127.0.0.1:5500/index.html" property="og:url" />
+    <meta content="https://i.imgur.com/htUNYH1.jpg" property="og:image" />
+    <meta content="#519670" data-react-helmet="true" name="theme-color" />
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+
+    <script src="./js/ScrollTo.js"></script>
+</head>
+<body onload='ScrollToElement("navbar");'>
+    <div class="navbar" id="navbar">
+        <ul class="fade-in-delay-2">
+            <li><a onclick='ScrollToElement("navbar");'>home</a></li>
+            <li><a onclick='ScrollToElement("section2");'>about</a></li>
+            <li><a onclick='ScrollToElement("section3");'>work</a></li>
+            <li><a onclick='ScrollToElement("section4");'>socials</a></li>
+        </ul>
+    </div>
+
+    <div class="section1" id="section1">
+        <center>
+            <h1 class="fade-in header">Hi</h1>
+            <h1 class="fade-in-delay header">I'm Novinity</h1>
+        </center>
+    </div>
+
+    <div class="section2 fade-in-delay-2" id="section2">
+        <center>
+            <h1 class="fade-in-delay-2 header">About me</h1>
+        </center>
+        <div class="about-section fade-in-delay-2">
+            <center><p>
+                I’m Novinity. I have a wide range of skills and interests, but I offer video editing as a service. I've been a video
+                editor and YouTuber for about 4 years now, and recently decided to start offering to edit videos for others! I mainly
+                edit YouTube videos, but I am not at all against trying something new. You may
+                hire me on Fiverr using the link in the <a class="special-a" onclick='ScrollToElement("section4");'>socials section</a>!
+            </p></center>
+        </div>
+    </div>
+
+    <div class="section3 fade-in-delay-2" id="section3">
+        <center>
+            <h1 class="fade-in-delay-2 header">My work</h1>
+        </center>
+        <div class="work-section fade-in-delay-2">
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/7R49tUCFJQQ" frameborder="0" allowfullscreen></iframe></center>
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/HT_2Et_mxN4" frameborder="0" allowfullscreen></iframe></center>
+            <center><span>More will be added once I do more work :)</span></center>
+        </div>
+    </div>
+
+    <div class="section4 fade-in-delay-2" id="section4">
+        <center>
+            <h1 class="fade-in-delay-2 header">Socials</h1>
+        </center>
+        <div class="socials-section fade-in-delay-2">
+            <center>
+                <a href="https://youtube.com/@novinity/" target="_blank"><img src="media/images/socials/youtube.png" alt="Youtube link / icon"></a>
+                <a href="https://twitter.com/NotNovinity" target="_blank"><img src="media/images/socials/twitter.png" alt="Twitter link / icon"></a>
+                <a href="https://discord.gg/ESrzBBKsjF" target="_blank"><img src="media/images/socials/discord.png" alt="Discord link / icon"></a>
+                <a href="https://www.fiverr.com/notnovinity" target="_blank"><img src="media/images/socials/fiverr.png" alt="Fiverr link / icon"></a>
+            </center>
+        </div>
+    </div>
+
+    <footer class="fade-in-delay-2">
+        <center>
+            <span>hi! this site was coded entirely by me, from scratch. thanks for stopping by!</span>
+        </center>
+    </footer>
+</body>
+</html>
